@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    background-color:lightblue;
+    color: black;    
+    padding-left: 26px;
+    line-height: 64px;
+}
+
+a::after{
+    content: ">";
+    display: inline-block;
+    color: #fff;
+    background-color:#15afcf;
+    width: 59px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    margin-left: 26px;
+}

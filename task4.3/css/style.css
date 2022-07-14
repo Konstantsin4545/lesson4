@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+body {
+    background-color: #FFFAF3;
+    background-image: url(../images/fon.png);
+    background-repeat: no-repeat;
+    background-position: 83% -20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding-top: 43px;
+    padding-bottom: 44px;
+    border-bottom: 1px #C08D5D solid;
+}
+
+.header {
+    display: inline-block;
+}
+
+nav li,
+header a,
+nav {
+    display: inline-block;
+    vertical-align: middle
+}
+
+header a img {
+    width: 39px;
+    height: 59px;
+    margin-right: 83px;
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+    padding-right: 53px;
+    font-size: 20px;
+}
+
+main {
+    padding-top: 125px;
+}
+
+h1 span {
+    display: block;
+    text-transform: none;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+h1 span::after {
+    display: inline-block;
+    content: url(../images/logo.svg);
+    width: 45px;
+    margin-left: 8px;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 70px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #3F4042;
+}
+
+h1::after {
+    display: block;
+    content: url(../images/vector.svg);
+    width: 165px;
+}
+
+p {
+    width: 535px;
+    color: #3F4042;
+    font-size: 18px;
+    padding-bottom: 72px;
+    letter-spacing: 1px;
+}
+
+.button {
+    display: inline-block;
+    padding-left: 15px;
+    border: #C08D5D 2px solid;
+    text-decoration: none;
+    color: #3F4042;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 15;
+    max-width: 197px;
+    max-height: 64px;
+}
+
+.button::after {
+    display: inline-block;
+    content: ">";
+    color: #FFF;
+    background-color: #C08D5D;
+    margin-left: 11px;
+    text-align: center;
+    padding: 16px 24px 18px 25px;
+
+}
+
+.mouse{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.mouse a {
+    display: block;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 34px;
+    margin: auto;
+}
